@@ -51,7 +51,7 @@ public class PersistenceManager {
 
     protected void createEntityManagerFactory() {
 
-        this.emf = Persistence.createEntityManagerFactory("AplicacionMundialPU", System.getProperties());
+        this.emf = Persistence.createEntityManagerFactory("mongoPU", System.getProperties());
         if (DEBUG) {
             System.out.println("n*** Persistence started at " + new java.util.Date());
         }
